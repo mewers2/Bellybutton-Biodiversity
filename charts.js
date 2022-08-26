@@ -82,7 +82,7 @@ function buildCharts(sample) {
         type: "bar",
         x: sampleValues,
         y: yticks,
-        //text: otuLabels,//.slice(0,10).reverse(),
+        text: otuLabels,//.slice(0,10).reverse(),
         orientation: 'h'
         
     }];
