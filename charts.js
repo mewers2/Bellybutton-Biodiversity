@@ -4,9 +4,9 @@ function init() {
 
   // Use the list of sample names to populate the select options
   d3.json("samples.json").then((data) => {
+    console.log(data); 
     
     var sampleNames = data.names;
-    console.log(data);
     sampleNames.forEach((sample) => {
       selector
         .append("option")
