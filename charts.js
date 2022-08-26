@@ -79,11 +79,12 @@ function buildCharts(sample) {
 
     // 8. Create the trace for the bar chart. 
     var barData = [{
+        type: "bar",
         x: sampleValues,//.slice(0,10).reverse(),
         y: yticks,
         //text: otuLabels,//.slice(0,10).reverse(),
-        orientation: 'h',
-        type: "bar"
+        orientation: 'h'
+        
     }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
