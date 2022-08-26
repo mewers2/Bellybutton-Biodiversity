@@ -76,11 +76,11 @@ function buildCharts(sample) {
     //var topSamples = sampleValues.slice(0,10);
     
     var yticks = otuIDs.slice(0,10).reverse().map(function(label){return `OTU ${label}`})
-
+    var xticks = sampleValues.slice(0,10).reverse()
     // 8. Create the trace for the bar chart. 
     var barData = [{
         type: "bar",
-        x: sampleValues.reverse(),
+        x: xticks,
         y: yticks,
         //text: otuLabels,//.slice(0,10).reverse(),
         orientation: 'h'
