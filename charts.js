@@ -96,7 +96,7 @@ function buildCharts(sample) {
         type: "bar",
         x: sampleValues,
         y: yticks,
-        orientation: 'h'
+        orientation: 'h',
         text: [otuLabels]//.slice(0,10).reverse(),
         
     }];
@@ -137,7 +137,7 @@ function buildCharts(sample) {
     // DELIVERABLE 3
 
       // 4. Create the trace for the gauge chart.
-      var gaugeData = [
+      var gaugeData = [{
         value: [washFreq],
         type: "indicator",
         mode: "gauge+number",
@@ -152,7 +152,7 @@ function buildCharts(sample) {
                     { range: [8, 10], color: "green"}
                  ] }
      
-    ];
+    }];
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { width: 300, height: 225, automargin: true
