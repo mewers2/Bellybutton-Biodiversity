@@ -1,6 +1,7 @@
 body {
 
-  color: slategray;
+  background-color: slategray;
+  color: black;
 
 }
 
@@ -8,4 +9,6 @@ body {
   background-image: url("../images/innies-and-outies.jpg");
   background-size: 100% 100%;
   text-align: center;
+  color: black;
+  
 }
