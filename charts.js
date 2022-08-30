@@ -94,8 +94,8 @@ function buildCharts(sample) {
     // 8. Create the trace for the bar chart. 
     var barData = [{
         type: "bar",
-        x: sampleValues,
-        y: yticks,
+        x: sampleValues.slice(0, 10).reverse(),
+        y: otuIDs.slice(0, 10).reverse(),
         orientation: 'h',
         //text: [otuLabels.slice(0,10).reverse()]//.slice(0,10).reverse(),
         
