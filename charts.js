@@ -81,7 +81,7 @@ function buildCharts(sample) {
     var sampleValues = firstResultSample.sample_values;
 
     // 3. Create a variable that holds the washing frequency.
-    var washFreq = firstResultMetadata.wfreq;
+    //var washFreq = firstResultMetadata.wfreq;
 
 
     // 7. Create the yticks for the bar chart.
