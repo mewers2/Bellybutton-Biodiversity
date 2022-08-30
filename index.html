@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -41,21 +42,30 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+        <p>This bar chart displays the top ten bacteria found in the voluneer's belly button bacteria sample.  The length of the bar on the chart is a measurement of the quantity found of that particular bacteria culture.</p>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <p>This chart indicates how many times a week the volunteer washes his/her belly button, which can have significant effects on the bacterial growth inside the belly button.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <p>This bubble chart displays all the bacteria cultures found within the volunteer's belly button sample.  The size of the belly button is a measurement of the quantity found of that particular bacteria culture.</p>
       </div>
+    </div>
+    <div class="row">
+      <h2>Project Description</h2>
+      <p>The purpose of this project is to gather bacterial data from a sampling of volunteers' belly buttons for analysis on the development of Improbable Beef's next synthetic beef.  
+        There is potential for a bacteria found growing in a human belly button to produce a protein that could be used to grow a synthetic beef substitute.<br><br>This dashboard allows
+         a volunteer to select their ID number and then view a series of graphs displaying the bacteria found in their belly button sample.</p>
     </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
+  <script src="static/js/charts.js"></script>
 
 </body>
 
