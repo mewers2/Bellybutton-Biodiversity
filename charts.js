@@ -95,7 +95,7 @@ function buildCharts(sample) {
     var barData = [{
         type: "bar",
         x: sampleValues.slice(0, 10).reverse(),
-        y: otuIDs.slice(0, 10).reverse(),
+        y: yticks,
         orientation: 'h',
         //text: [otuLabels.slice(0,10).reverse()]//.slice(0,10).reverse(),
         
@@ -155,7 +155,7 @@ function buildCharts(sample) {
     }];
     
     // 5. Create the layout for the gauge chart.
-    var gaugeLayout = { width: 600, height: 450,  margin: { t: 25, r: 25, l: 25, b: 25 }
+    var gaugeLayout = { width: 400, height: 300,  margin: { t: 25, r: 25, l: 25, b: 25 }
      
     };
 
