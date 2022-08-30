@@ -94,10 +94,10 @@ function buildCharts(sample) {
     // 8. Create the trace for the bar chart. 
     var barData = [{
         type: "bar",
-        x: sampleValues.reverse(),
+        x: sampleValues,
         y: yticks,
         orientation: 'h',
-        text: [otuLabels.slice(0,10).reverse()]//.slice(0,10).reverse(),
+        //text: [otuLabels.slice(0,10).reverse()]//.slice(0,10).reverse(),
         
     }];
     // 9. Create the layout for the bar chart. 
@@ -155,7 +155,7 @@ function buildCharts(sample) {
     }];
     
     // 5. Create the layout for the gauge chart.
-    var gaugeLayout = { width: 1200, height: 900,  margin: { t: 25, r: 25, l: 25, b: 25 }
+    var gaugeLayout = { width: 600, height: 450,  margin: { t: 25, r: 25, l: 25, b: 25 }
      
     };
 
