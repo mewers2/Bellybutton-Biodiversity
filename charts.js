@@ -141,7 +141,7 @@ function buildCharts(sample) {
         value: [washFreq],
         type: "indicator",
         mode: "gauge+number",
-        title: { text: "<strong>Belly Button Washing Frequency</strong><br>Scrubs per Week"}
+        title: { text: "<strong>Belly Button Washing Frequency</strong><br>Scrubs per Week"},
         gauge: { axis: { range: [0, 10] }, 
                  bar: { color: "black" },         
                  steps: [ 
