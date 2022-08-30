@@ -94,7 +94,7 @@ function buildCharts(sample) {
     // 8. Create the trace for the bar chart. 
     var barData = [{
         type: "bar",
-        x: sampleValues,
+        x: sampleValues.reverse(),
         y: yticks,
         orientation: 'h',
         text: [otuLabels.slice(0,10).reverse()]//.slice(0,10).reverse(),
@@ -141,7 +141,7 @@ function buildCharts(sample) {
         value: washFreq,
         type: "indicator",
         mode: "gauge+number",
-        title: { text: "<strong>Belly Button Washing Frequency</strong><br>Scrubs per Week"},
+        title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week"},
         gauge: { axis: { range: [0, 10] }, 
                  bar: { color: "black" },         
                  steps: [ 
