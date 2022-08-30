@@ -112,12 +112,12 @@ function buildCharts(sample) {
 
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
-        x: [otuIDs],
-        y: [sampleValues],
+        x: otuIDs,
+        y: sampleValues,
         mode: 'markers',
         marker: {
-            color: [otuIDs],
-            size: [sampleValues]
+            color: otuIDs,
+            size: sampleValues
         },
         text: [otuLabels]
     }];
@@ -138,7 +138,7 @@ function buildCharts(sample) {
 
       // 4. Create the trace for the gauge chart.
       var gaugeData = [{
-        value: [washFreq],
+        value: washFreq,
         type: "indicator",
         mode: "gauge+number",
         title: { text: "<strong>Belly Button Washing Frequency</strong><br>Scrubs per Week"},
@@ -155,7 +155,7 @@ function buildCharts(sample) {
     }];
     
     // 5. Create the layout for the gauge chart.
-    var gaugeLayout = { width: 300, height: 225, automargin: true
+    var gaugeLayout = { width: 600, height: 450, automargin: true
      
     };
 
