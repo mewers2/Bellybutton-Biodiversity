@@ -117,7 +117,8 @@ function buildCharts(sample) {
         mode: 'markers',
         marker: {
             color: otuIDs,
-            size: sampleValues
+            size: sampleValues,
+            colorscale: 'Earth'
         },
         text: otuLabels
     }];
