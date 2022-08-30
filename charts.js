@@ -97,7 +97,7 @@ function buildCharts(sample) {
         x: sampleValues.slice(0, 10).reverse(),
         y: yticks,
         orientation: 'h',
-        //text: [otuLabels.slice(0,10).reverse()]//.slice(0,10).reverse(),
+        text: otuLabels.slice(0,10).reverse()//.slice(0,10).reverse(),
         
     }];
     // 9. Create the layout for the bar chart. 
